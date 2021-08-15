@@ -17,8 +17,8 @@ const navbar = () => {
         <>
         {isOpen && <SideNav  closeNav={closeNav}/>}
             <nav className="flex flex-row flex-wrap justify-around content-center z-10 sticky top-0 bg-primary font-andadaPro text-primary">
-                <span className="md:px-3 py-5">
-                    C
+                <span className="md:px-5 py-5">
+                   <a href="/">  C </a>
                 </span>
 
                 <span className="py-5 block md:hidden" onClick={e => setIsOpen(true)}>

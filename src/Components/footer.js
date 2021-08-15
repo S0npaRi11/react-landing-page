@@ -99,8 +99,8 @@ const footer = () => {
         </section>
 
         <div className="flex flex-row flex-wrap justify-around content-center bg-tertiory text-white">
-            <span className="px-3 py-5 hidden md:block">
-                C
+            <span className="px-5 py-5 hidden md:block">
+               <a href="/" className="transition duration-600 hover:text-secondary">  C </a>
             </span>
 
             <span className="flex flex-row justify-between p-2">

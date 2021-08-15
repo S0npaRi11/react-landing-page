@@ -5,7 +5,7 @@ const card = ({ title= '', position = '', image = '', link=  '', desc = '' }) =>
 
     return (
         <motion.div className="text-center flex flex-col h-auto w-auto pb-5 border border-black overflow-hidden"
-            whileHover={{scale: 0.97, cursor: 'pointer'}}
+            whileHover={{scale: 0.97}}
             transition={{ease: "easeOut", duration: 0.6}}
         >
             { image !== '' && 
