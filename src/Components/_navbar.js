@@ -26,11 +26,11 @@ const navbar = () => {
                 </span>
 
                 <div className="flex flex-row justify-between content-center hidden md:inline py-5">
-                    <a className="md:px-3 py-5 transition duration-600 hover:text-secondary" href="/"> Services </a>
-                    <a className="md:px-3 py-5 transition duration-600 hover:text-secondary" href="/"> Clients </a>
-                    <a className="md:px-3 py-5 transition duration-600 hover:text-secondary" href="/"> Careers </a>
-                    <a className="md:px-3 py-5 transition duration-600 hover:text-secondary" href="/"> About </a>
-                    <a className="md:px-3 py-3 border border-black transition duration-600 hover:bg-white" href="/"> Contact </a>
+                    <a className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white" href="/"> Services </a>
+                    <a className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white" href="/"> Clients </a>
+                    <a className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white" href="/"> Careers </a>
+                    <a className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white" href="/"> About </a>
+                    <a className="md:px-3 py-3 mx-1 border border-black transition duration-600 hover:bg-white" href="/"> Contact </a>
                 </div>
 
             </nav>
